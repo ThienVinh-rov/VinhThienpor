@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+<head>
+<title>Snacks & Restaurants</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv=”X-UA-Compatible” content=”IE=Edge”>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- font link -->
+	<link rel="shortcut icon" href="images/icon3.png" type="image/png" sizes="64x64">
+	<link rel="stylesheet" type="text/css" href="fontawesome-5.11.2-web/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+	<!-- CSS files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/smoothbox.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaquery.css">
+	
+	
+</head>
+<body>
+
+
+	<!-- header start -->
+<header>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<h1>
+					<a class="navbar-brand logo-text" href="index.html">
+						<i class="fas fa-utensils "> Tasty Snacks</i>
+					</a>
+				</h1>
+				<button class="navbar-toggler navbar-light ml-md-auto custom-navbar-toggle" type="button" 			data-toggle="collapse" data-target="#navbarSupportedContent" 
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon "></span>
+				</button>
+				<div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto text-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 			data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages
+							</a>
+							<div class="dropdown-menu text-lg-left text-center custom-dropdown-menu"					aria-labelledby="navbarDropdown">
+								<a class="dropdown-item custom-dropdown" href="services.html">Services</a>
+								<a class="dropdown-item custom-dropdown" href="specials.html">Specials</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item custom-dropdown" href="gallery.html">Gallery</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact Us</a>
+						</li>
+					</ul>
+					<div class="text-center mt-lg-0 mt-4">
+						<ul>
+							<li class="login-list-w3ls d-inline border-right pr-3 mr-3">
+								<a href="#" class="text-white" data-toggle="modal" data-target="#exampleModalCenter1">Login</a>
+							</li>
+							<li class="login-list-w3ls d-inline">
+								<a href="#" class="text-white" data-toggle="modal" data-target="#exampleModalCenter2">Register</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- login start -->
+	<section class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-sm-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Login Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>Your Name</label>
+								<input type="text" class="form-control" name="name" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" class="form-control" name="password" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Login</button>
+							<p class="text-center pb-4">
+								<a href="#">Forgot your password?</a>
+							</p>
+							<p class="text-center pb-4 create-w3ls">
+							Don't have an account?
+								<a href="#" data-toggle="modal" data-target="#exampleModalCenter2">Create one now</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- login end -->
+	<!-- register start -->
+	<section class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header text-center">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login px-sm-4 mx-auto mw-100">
+						<h5 class="text-center mb-4">Register Now</h5>
+						<form action="#" method="post">
+							<div class="form-group">
+								<label>Your Name</label>
+								<input type="text" class="form-control" name="name" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Email</label>
+								<input type="email" class="form-control" name="email" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label class="mb-2">Password</label>
+								<input type="password" class="form-control" name="password" id="password1" placeholder="" required="">
+							</div>
+							<div class="form-group">
+								<label>Confirm Password</label>
+								<input type="password" class="form-control" name="password" id="password2" placeholder="" required="">
+							</div>
+							<button type="submit" class="btn btn-primary submit mb-4">Register</button>
+							<p class="text-center pb-4">
+								<a href="#">By clicking Register, I agree to your terms</a>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- register end -->	
+<section class="service pt-5" id="services">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row">
+				<h3 class="title text-center text-dark mb-sm-5 mb-4">
+					<span>The great advantages</span> for eating healthy is that it is made your life better
+				</h3>
+			</div>
+			<div class="row pt-lg-5">
+				<div class="col-lg-6 text-center">
+					<img src="images/3.png" alt="" class="img-fluid chef-img">
+				</div>
+				<div class="col-lg-4 mt-lg-0 mt-4">
+					<div class="service1">
+						<h4>1</h4>
+						<h6 class="text-dark mt-3 mb-2">Meal Delivery</h6>
+						<p>Our delivery service will deliver your food in the right time.</p>
+					</div>
+					<div class="service1 my-4">
+						<h4>2</h4>
+						<h6 class="text-dark mt-3 mb-2">Catering</h6>
+						<p>We providing food services at a remote site or a site such as a hotel, hospital, park, festival, ...</p>
+					</div>
+					<div class="service1">
+						<h4>3</h4>
+						<h6 class="text-dark mt-4 mb-2">Events</h6>
+						<p>We also providing on-site banquet services upon customer request.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+	
+<footer class="pt-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row footer-grids mx-auto py-4">
+				<div class="col-lg-4 footer-grid text-left">
+					<div class="footer-logo">
+						<h2 class="mb-3">
+							<a class="logo text-white" href="index.html">
+								<i class="fas fa-utensils mr-2"></i>Snacks</a>
+							</h2>
+						</div>
+					</div>
+					<div class="col-lg-2 col-8  footer-grid my-lg-0 my-4">
+						<h3 class="mb-sm-4 mb-3 pb-3">Home</h3>
+						<ul class="list-unstyled">
+							<li>
+								<a href="index.html">Index</a>
+							</li>
+							<li class="my-2">
+								<a href="#about">About</a>
+							</li>
+							<li>
+								<a href="#services">Services</a>
+							</li>
+							<li class="my-2">
+								<a href="#gallery">Gallery</a>
+							</li>
+							<li>
+								<a href="#contact">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-8 footer-grid my-lg-0 my-4">
+						<h3 class="mb-sm-4 mb-3 pb-3"> Navigation </h3>
+						<ul class="list-unstyled">
+							<li>
+								<a class="scroll" href="#services">Advantages</a>
+							</li>
+							<li class="my-2">
+								<a class="scroll" href="#specials">Specials</a>
+							</li>
+							<li>
+								<a class="scroll" href="#some">Some More</a>
+							</li>
+							<li class="my-2">
+								<a class="scroll" href="#gallery">Gallery</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-8 footer-grid">
+						<h3 class="mb-sm-4 mb-3 pb-3">For Foodies</h3>
+						<ul class="list-unstyled">
+							<li>
+								<a href="#">Code of Conduct</a>
+							</li>
+							<li class="my-2">
+								<a href="#">Community</a>
+							</li>
+							<li>
+								<a href="#">Verified Users</a>
+							</li>
+							<li class="my-2">
+								<a href="#">Blogger Help</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-8 footer-grid footer-contact">
+						<h3 class="mb-sm-4 mb-3 pb-3"> Contact Us</h3>
+						<ul class="list-unstyled">
+							<li>0707 296 745</li>
+							<li class="mt-2">
+								<a href="mailto:info@example.com"> vinhthien711@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- copyright start -->
+			<div class="copy_right">
+				<p class="text-center text-white py-sm-4 py-3"> &copy; 2024 Snacks Restaurants. All rights reserved
+				</p>
+
+			</div>
+			<!-- copyright end -->
+		</footer>
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+	<!-- gallery light box start -->
+	<script type="text/javascript" src="js/smoothbox.jquery2.js"></script>
+	<!-- //gallery light box end -->
+	<!-- smooth scrolling start-->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smooth scrolling end-->
+	<!-- move-top -->
+	<script src="js/move-top.js"></script>
+	<!-- easing -->
+	<script src="js/easing.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
